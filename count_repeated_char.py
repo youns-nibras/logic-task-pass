@@ -1,10 +1,5 @@
-st = input("enter the string: ")
-def count(st):
-    di = {}
-    for letter in st:
-        if letter not in di:
-            di[letter] = 1
-        else:
-            di[letter]+=1
-    for key,value in di.items():
-        print(f"{key} ==> {value}")
+st= input("enter the string: ").lower()
+char = input("enter the character: ").lower()
+def coun (char , st):
+    print(f"the character \"{char.upper()}\" repeted {st.count(char)} times.")
+coun(char,st)
