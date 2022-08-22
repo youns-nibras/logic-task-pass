@@ -1,4 +1,4 @@
-st = input("enter the string")
+st = input("enter the string: ")
 def count(st):
     di = {}
     for letter in st:
